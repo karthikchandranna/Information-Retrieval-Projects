@@ -1,0 +1,26 @@
+Ranking 1000 documents for each query -
+
+Uninterpolated mean average precision numbers -
+
+Okapi TF Score = 0.1762
+TF-IDF Score = 0.2518
+Okapi BM25 Score = 0.2384
+Unigram LM with Laplace smoothing Score = 0.1740
+Unigram LM with Jelinek-Mercer smoothing Score = 0.2046
+
+Precision at 10 documents -
+
+Okapi TF Score = 0.3120
+TF-IDF Score = 0.3640
+Okapi BM25 Score = 0.3400
+Unigram LM with Laplace smoothing Score = 0.3440
+Unigram LM with Jelinek-Mercer smoothing Score = 0.2960
+
+Precision at 30 documents -
+
+Okapi TF Score = 0.2587
+TF-IDF Score = 0.3133
+Okapi BM25 Score = 0.2907
+Unigram LM with Laplace smoothing Score = 0.2680
+Unigram LM with Jelinek-Mercer smoothing Score = 0.2480
+
