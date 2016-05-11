@@ -1,0 +1,34 @@
+C:\Perl64\bin>perl trec_eval.pl qrels.adhoc.51-100.AP89.txt Training_Scores.txt
+
+Queryid (Num):       20
+Total number of documents over all queries
+    Retrieved:    20000
+    Relevant:      1689
+    Rel_ret:       1337
+Interpolated Recall - Precision Averages:
+    at 0.00       0.6018
+    at 0.10       0.4441
+    at 0.20       0.4377
+    at 0.30       0.3963
+    at 0.40       0.3750
+    at 0.50       0.3433
+    at 0.60       0.2936
+    at 0.70       0.2476
+    at 0.80       0.2076
+    at 0.90       0.1688
+    at 1.00       0.0841
+Average precision (non-interpolated) for all rel docs(averaged over queries)
+                  0.3119
+Precision:
+  At    5 docs:   0.4000
+  At   10 docs:   0.3900
+  At   15 docs:   0.3767
+  At   20 docs:   0.3650
+  At   30 docs:   0.3583
+  At  100 docs:   0.2775
+  At  200 docs:   0.2100
+  At  500 docs:   0.1199
+  At 1000 docs:   0.0668
+R-Precision (precision after R (= num_rel for a query) docs retrieved):
+    Exact:        0.3397
+
